@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/chartist.min.css" />
+    <title>Gastos Empresa X</title>
+  </head>
+  <body>
+    <form id="GastosDeLaEmpresa" action="#" method="post">
+      <legend>Gastos de la Empresa X</legend>
+      <fieldset>
+        <ul>
+          <li>
+            <label>Logística: </label>
+            <input id="Logistica" type="text">
+          </li>
+          <li>
+            <label>Renta: </label>
+            <input id="Renta" type="text">
+          </li>
+          <li>
+            <label>Suplidores: </label>
+            <input id="Suplidores" type="text">
+          </li>
+          <li>
+            <label>Nómina: </label>
+            <input id="Nomina" type="text">
+          </li>
+          <li>
+            <label>Impuestos: </label>
+            <input id="Impuestos" type="text">
+          </li>
+          <li>
+            <label>Mantenimiento Mobiliario: </label>
+            <input id="MantenimientoMobiliario" type="text">
+          </li>
+          <li><input id="GenerarGrafico" type="submit" value="Generar gráfico"></li>
+        </ul>
+      </fieldset>
+    </form>
+    <h3>Gráfico de Gastos</h3>
+    <div id="Grafico"  style="width: 60%; height: 300px;"></div>
+    <script src="./js/funcions.js"></script>
+    <script src="./js/chartist.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 252, 252);
+}
+form ul li {
+  list-style: none;
+  padding: 10px;
+}
+form ul li input {
+  font-size: medium;
+}
